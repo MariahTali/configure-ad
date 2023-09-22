@@ -81,25 +81,22 @@ Create a couple of organizational units inside of Active Directory and create an
 </p>
 <br />
 <p>
+<img width="884" alt="Screenshot 2023-09-21 at 6 07 36 PM" src="https://github.com/MariahTali/configure-ad/assets/76408932/b72759f1-7faa-4b18-8ce2-fe03eac046ea"><br>
+<img width="1022" alt="Screenshot 2023-09-21 at 6 11 32 PM" src="https://github.com/MariahTali/configure-ad/assets/76408932/356a29e8-4351-4704-88e1-e4719c308f41">
+<img width="763" alt="Screenshot 2023-09-21 at 6 21 30 PM" src="https://github.com/MariahTali/configure-ad/assets/76408932/f1220b9e-87ec-4607-9957-80bd0cde66fa">
 
 </p>
 <p>
-Join Client-1 to domain by setting DNS to DC's Private IP address.
+Join Client-1 to domain by setting DNS to DC's Private IP address(10.0.0.4 in this case). 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="891" alt="Screenshot 2023-09-21 at 6 25 50 PM" src="https://github.com/MariahTali/configure-ad/assets/76408932/10c92aa3-2488-4bf5-bc59-c1b9a4091063"><br>
+<img width="976" alt="Screenshot 2023-09-21 at 6 29 15 PM" src="https://github.com/MariahTali/configure-ad/assets/76408932/663a9679-4071-4f28-af5b-12bba239413d"><br>
+<img width="314" alt="Screenshot 2023-09-21 at 6 29 39 PM" src="https://github.com/MariahTali/configure-ad/assets/76408932/0c305494-50c1-40b4-a3c1-f0a49248fb7f"><br>
+<img width="851" alt="Screenshot 2023-09-21 at 6 29 50 PM" src="https://github.com/MariahTali/configure-ad/assets/76408932/328e85b4-1c38-44bf-a8fe-3f4cfe421f3d"><br>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Run script to create many more users to make sure that any of them can log into client-1 and access the domain.
 </p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
