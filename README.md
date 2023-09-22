@@ -60,10 +60,11 @@ Remote Desktop into DC-1 and Client-1 so we can access the firewall. Once logged
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1522" alt="Screenshot 2023-09-21 at 5 28 20 PM" src="https://github.com/MariahTali/configure-ad/assets/76408932/0625a9ad-becb-45b6-8d33-f904613aa142"><br>
+<p><img width="1243" alt="Screenshot 2023-09-21 at 5 33 05 PM" src="https://github.com/MariahTali/configure-ad/assets/76408932/686b5155-3017-41fd-98aa-8511a8071900"><br>
+  <img width="1243" alt="Screenshot 2023-09-21 at 5 33 05 PM" src="https://github.com/MariahTali/configure-ad/assets/76408932/cc0b13d5-dc51-4b79-9ea6-f3db251d0e98"><br>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Install Active Directory Domain Services onto DC-1. Promote the server to a domain controller and create a new forest with a root domain.
 </p>
 <br />
 
