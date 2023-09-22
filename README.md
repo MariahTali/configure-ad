@@ -62,24 +62,29 @@ Remote Desktop into DC-1 and Client-1 so we can access the firewall. Once logged
 <p>
 <img width="1522" alt="Screenshot 2023-09-21 at 5 28 20 PM" src="https://github.com/MariahTali/configure-ad/assets/76408932/0625a9ad-becb-45b6-8d33-f904613aa142"><br>
 <p><img width="1243" alt="Screenshot 2023-09-21 at 5 33 05 PM" src="https://github.com/MariahTali/configure-ad/assets/76408932/686b5155-3017-41fd-98aa-8511a8071900"><br>
-  <img width="1243" alt="Screenshot 2023-09-21 at 5 33 05 PM" src="https://github.com/MariahTali/configure-ad/assets/76408932/cc0b13d5-dc51-4b79-9ea6-f3db251d0e98"><br>
+
 </p>
 Install Active Directory Domain Services onto DC-1. Promote the server to a domain controller and create a new forest with a root domain.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="674" alt="Screenshot 2023-09-21 at 5 46 31 PM" src="https://github.com/MariahTali/configure-ad/assets/76408932/ca0f997f-1578-4c3b-93dd-192456defcd3"><br>
+<img width="617" alt="Screenshot 2023-09-21 at 5 48 06 PM" src="https://github.com/MariahTali/configure-ad/assets/76408932/3dae5d40-a4c0-4347-9660-5ca0a031e133"><br>
+<img width="826" alt="Screenshot 2023-09-21 at 5 51 21 PM" src="https://github.com/MariahTali/configure-ad/assets/76408932/4e9882b3-6299-4673-98c2-cb56232f73be"><br>
+<img width="981" alt="Screenshot 2023-09-21 at 5 53 59 PM" src="https://github.com/MariahTali/configure-ad/assets/76408932/c4a95f6d-f80d-4928-a76d-4812b46263b7"><br>
+<img width="488" alt="Screenshot 2023-09-21 at 5 57 10 PM" src="https://github.com/MariahTali/configure-ad/assets/76408932/da6c674f-6f61-4fb2-b021-0c149d15100e"><br>
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Create a couple of organizational units inside of Active Directory and create an administrative user. Then log out of DC-1 and log back in as admin.
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Join Client-1 to domain by setting DNS to DC's Private IP address.
 </p>
 <br />
 
